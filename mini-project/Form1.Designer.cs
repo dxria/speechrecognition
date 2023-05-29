@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -49,7 +48,6 @@
             this.divider2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-           // this.tmr_speaking = new System.Windows.Forms.Timer(this.components);
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.tb_occupation1 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -57,7 +55,6 @@
             this.tb_occupation2 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.tb_occupation3 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.btn_builtin = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -260,12 +257,6 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Enter friends cities:";
             // 
-            // tmr_speaking
-            //// 
-            //this.tmr_speaking.Enabled = true;
-            //this.tmr_speaking.Interval = 1000;
-            //this.tmr_speaking.Tick += new System.EventHandler(this.tmr_speaking_Tick);
-            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.tb_occupation1);
@@ -336,15 +327,6 @@
             this.tb_occupation3.Size = new System.Drawing.Size(137, 31);
             this.tb_occupation3.TabIndex = 13;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(776, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 16);
-            this.label1.TabIndex = 22;
-            this.label1.Text = "label1";
-            // 
             // btn_builtin
             // 
             this.btn_builtin.BackColor = System.Drawing.SystemColors.ControlDark;
@@ -366,7 +348,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(832, 715);
             this.Controls.Add(this.btn_builtin);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -384,7 +365,6 @@
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -409,7 +389,6 @@
         private System.Windows.Forms.Label divider2;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
-       // private System.Windows.Forms.Timer tmr_speaking;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.TextBox tb_occupation1;
         private System.Windows.Forms.Label label9;
@@ -417,7 +396,6 @@
         private System.Windows.Forms.TextBox tb_occupation2;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox tb_occupation3;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btn_builtin;
     }
 }

@@ -12,6 +12,14 @@ namespace mini_project
         private string[] cities = { "", "", "" };
         private string[] occupations = { "", "", "" };
 
+
+        public Form1()
+        {
+            InitializeComponent();
+            SpeechCustom speechCustom = new SpeechCustom(this);
+            speechCustom.SettingUp();
+
+        }
         private void btn_builtin_Click(object sender, EventArgs e)
         {
             BuiltinValues();
@@ -80,7 +88,7 @@ namespace mini_project
             }
         }
 
-        private void Solve()
+        public void Solve()
         {
             var combinations = GenerateCombinations();
 

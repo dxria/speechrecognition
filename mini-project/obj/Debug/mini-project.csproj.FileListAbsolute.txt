@@ -1,0 +1,11 @@
+D:\my\univ\ookp2\mini-project\mini-project\obj\Debug\mini-project.csproj.AssemblyReference.cache
+D:\my\univ\ookp2\mini-project\mini-project\obj\Debug\mini-project.csproj.SuggestedBindingRedirects.cache
+D:\my\univ\ookp2\mini-project\mini-project\obj\Debug\mini_project.Properties.Resources.resources
+D:\my\univ\ookp2\mini-project\mini-project\obj\Debug\mini-project.csproj.GenerateResource.cache
+D:\my\univ\ookp2\mini-project\mini-project\obj\Debug\mini-project.csproj.CoreCompileInputs.cache
+D:\my\univ\ookp2\mini-project\mini-project\bin\Debug\mini-project.exe.config
+D:\my\univ\ookp2\mini-project\mini-project\bin\Debug\mini-project.exe
+D:\my\univ\ookp2\mini-project\mini-project\bin\Debug\mini-project.pdb
+D:\my\univ\ookp2\mini-project\mini-project\obj\Debug\mini_project.Form1.resources
+D:\my\univ\ookp2\mini-project\mini-project\obj\Debug\mini-project.exe
+D:\my\univ\ookp2\mini-project\mini-project\obj\Debug\mini-project.pdb
